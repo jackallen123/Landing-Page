@@ -1,13 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-
 }
+
+/* Styling for section1 */
+
+/* padding syntax: top left bottom right */
 
 .section1 {
     background-color: #1f2937;
-    padding-left: 256px;
-    padding-right: 256px;
-    padding-bottom: 128px;
+    padding: 0px 256px 128px 256px;
 }
 
 .header {
@@ -35,7 +36,7 @@ body {
 
 .hero-primary {
     font-size: 48px;
-    font-weight: 1000px;
+    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -44,7 +45,7 @@ body {
     color: #e5e7eb;
 }
 
-img {
+.hero-img {
     height: 250px;
     width: 500px;
 }
@@ -60,4 +61,42 @@ button {
     padding: 8px 16px 8px 16px;
     border: 0;
     border-radius: 8px;
+}
+
+/* Styling for section 2 */
+.section2 {
+    background-color: white;
+    padding: 80px 256px 128px 256px;
+}
+
+.s2-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.section2 img {
+    height: 180px;
+    width: 180px;
+    border: black;
+    border-radius: 8px;
+}
+
+.sub-images {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.captions {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.captions p {
+    width: 180px;
 }
