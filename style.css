@@ -77,3 +77,33 @@
     width: 80px;
 }
 
+/* Content section */
+.content {
+    align-items: center;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding: 48px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info p {
+    text-align: center;
+    width: 128px;
+}
+
+.info img {
+    height: 128px;
+    width: 128px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
