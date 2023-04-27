@@ -66,7 +66,7 @@ button {
 /* Styling for section 2 */
 .section2 {
     background-color: white;
-    padding: 80px 256px 128px 256px;
+    padding: 80px 384px 128px 384px;
 }
 
 .s2-header {
@@ -99,4 +99,23 @@ button {
 
 .captions p {
     width: 180px;
+}
+
+/* Styling for section 3 */
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 128px 500px 128px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    display:flex;
+    justify-content: right;
+    font-weight: 800;
 }
