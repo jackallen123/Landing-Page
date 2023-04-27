@@ -80,6 +80,7 @@
 /* Content section */
 .content {
     align-items: center;
+    margin-bottom: 128px;
 }
 
 .content h2 {
@@ -107,3 +108,26 @@
     border: 3px solid #3882f6;
     border-radius: 8px;
 }
+
+/* Quote section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 128px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    padding: 16px;
+}
+
+.signature {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+}
+
+/* Call to action */
