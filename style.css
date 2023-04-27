@@ -1,121 +1,28 @@
-body {
-    font-family: 'Roboto', sans-serif;
+.body {
+    font-family: 'Roboto', arial;
 }
 
-/* Styling for section1 */
+/* top left bottom right */
 
-/* padding syntax: top left bottom right */
+/* Navigation bar */
 
-.section1 {
+.navbar {
     background-color: #1f2937;
-    padding: 0px 256px 128px 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 80px;
+.navbar h3 {
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 128px;
 }
 
 .links {
+    display: flex;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.hero-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.hero-primary {
-    font-size: 48px;
-    font-weight: 800;
-    color: #f9faf8;
-}
-
-.hero-secondary {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.hero-img {
-    height: 250px;
-    width: 500px;
-}
-
-.left {
-    width: 500px;
-    height: 250px;
-}
-
-button {
-    background-color: #3882f6;
-    color: #e5e7eb;
-    padding: 8px 16px 8px 16px;
-    border: 0;
-    border-radius: 8px;
-}
-
-/* Styling for section 2 */
-.section2 {
-    background-color: white;
-    padding: 80px 384px 128px 384px;
-}
-
-.s2-header {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
-    text-align: center;
-}
-
-.section2 img {
-    height: 180px;
-    width: 180px;
-    border: black;
-    border-radius: 8px;
-}
-
-.sub-images {
-    padding-top: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.captions {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.captions p {
-    width: 180px;
-}
-
-/* Styling for section 3 */
-
-.section3 {
-    background-color: #e5e7eb;
-    padding: 128px 500px 128px 500px;
-}
-
-.quote {
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
-
-.signature {
-    display:flex;
-    justify-content: right;
-    font-weight: 800;
+    padding-right: 128px;
+    gap: 32px;
 }
